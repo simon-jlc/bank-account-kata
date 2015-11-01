@@ -170,9 +170,9 @@ public class BankAccountServiceTest {
 		generateMyAccountTransaction();
 		Filter amountFilter = new RecordTypeFilter(AccountRecordType.DEBIT);
 	
-		String statment = bankAccountService.statment(myAccount, amountFilter);
-		System.out.println(statment);
-		assertThat(statment).isEqualTo(moreThan1000Statment);
+		String statement = bankAccountService.statment(myAccount, amountFilter);
+		System.out.println(statement);
+		assertThat(statement).isEqualTo(moreThan1000Statment);
 	}
 
 	private void generateMyAccountTransaction() {

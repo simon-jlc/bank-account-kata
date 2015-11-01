@@ -1,9 +1,10 @@
 package com.simon.kata.bankaccount.domain;
 
+import com.google.common.collect.Lists;
+
 import java.util.List;
 import java.util.Optional;
 
-import org.assertj.core.util.Lists;
 
 /**
  * 
